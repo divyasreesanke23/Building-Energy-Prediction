@@ -1,0 +1,5 @@
+target,target_name,model,n_splits,mean_pairwise_jaccard,min_pairwise_jaccard,max_pairwise_jaccard,mean_selected_feature_count,X1_selection_percent,X2_selection_percent,X3_selection_percent,X4_selection_percent,X5_selection_percent,X6_selection_percent,X7_selection_percent,X8_selection_percent
+Y1,Heating Load,Linear Regression,30,0.9816091954022989,0.8571428571428571,1.0,6.066666666666666,100.0,100.0,100.0,100.0,100.0,0.0,100.0,6.666666666666667
+Y1,Heating Load,Random Forest,30,0.9508210180623973,0.75,1.0,6.866666666666666,100.0,100.0,100.0,100.0,100.0,3.3333333333333335,100.0,83.33333333333334
+Y2,Cooling Load,Linear Regression,30,0.8844006568144499,0.75,1.0,6.666666666666667,100.0,100.0,100.0,100.0,100.0,26.666666666666668,100.0,40.0
+Y2,Cooling Load,Random Forest,30,0.9281609195402298,0.75,1.0,7.666666666666667,100.0,100.0,100.0,100.0,100.0,83.33333333333334,100.0,83.33333333333334

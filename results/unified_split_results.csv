@@ -1,0 +1,961 @@
+seed,target,target_name,model,method,scenario,feature_count,features,MAE,RMSE
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0792429771690406,2.9054141799373356
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.043657709124754,3.98932591779181
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.0495898906103416,3.996728511267075
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.064268137120645,2.911460362382914
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.076145663027905,2.9038918726214327
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.064268137120645,2.911460362382914
+100,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.060713150882225,2.9093170271759763
+100,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.060713150882225,2.9093170271759763
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3206509740259743,0.4673002676851062
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.2668836184218235,2.931132699774262
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.43115790522049,3.1450509353356093
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.3920517568425447,0.5294711653675687
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3463044962378895,0.5116680717947424
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.3920517568425447,0.5294711653675687
+100,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3323625177642908,0.4373597489129851
+100,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3463044962378895,0.5116680717947424
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.4585017344871454,3.3928560999875588
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.8762633905065904,3.842182735527598
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.866353435187061,3.8376468444878227
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.4597017101291647,3.393715955393111
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.42560550690218,3.3764692531192226
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.4597017101291647,3.393715955393111
+100,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.4259212079251204,3.3769554800080774
+100,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.4585017344871454,3.3928560999875588
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.1455243506493507,1.8753425672991124
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.013015753333073,2.5889191661174564
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0977034275724558,2.675891956162581
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.327981073080058,2.026409740376544
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.5155547019944349,2.488372009287942
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.327981073080058,2.026409740376544
+100,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.2033794650314387,1.8307318647849604
+100,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.2033794650314387,1.8307318647849604
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.8227559922038419,2.600919809092429
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.599112563706929,3.5121938250171705
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.599226445897579,3.5142941566036607
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.7900573046050612,2.603906296663746
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.8069825307366392,2.589069719110247
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.7900573046050612,2.603906296663746
+101,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.7692912972630834,2.5894469759829355
+101,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.7692912972630834,2.5894469759829355
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.2459941558441568,0.37281164954834956
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.187069725037194,2.8711464192354734
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3175462359301378,3.036749265938429
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.33537373717552293,0.4809696986047499
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.2603725539837152,0.38862740639652765
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.33537373717552293,0.4809696986047499
+101,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.28752683175387905,0.40927834066187185
+101,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.2603725539837152,0.38862740639652765
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.951364419767537,2.7579028260239795
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.322929100454987,3.1896248292560943
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3179327134593355,3.1820284169326785
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.948491210915591,2.7583724361353013
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.9671095090235853,2.766921731616206
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.948491210915591,2.7583724361353013
+101,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.9619441447823396,2.7673130517107984
+101,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.9619441447823396,2.7673130517107984
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8359399350649352,1.4069162068396899
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.8783412748703854,2.5055003116980834
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",1.9835982932138818,2.6508252529825644
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.0010296997194725,1.741227084814926
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.0140593273294165,1.8053120817211712
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.0010296997194725,1.741227084814926
+101,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.8870414758228949,1.4494712126799554
+101,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8359399350649352,1.4069162068396899
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.950878439337922,2.737447226271866
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.073691379339887,4.041196655405062
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.0790452822893655,4.0462117076009765
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.9470865513946043,2.7624292500931156
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.950687476299322,2.737315812076804
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.9470865513946043,2.7624292500931156
+102,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.9464000646560666,2.7624189780511985
+102,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.9464000646560666,2.7624189780511985
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.33797240259740347,0.5322569368588981
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.3833430589161932,3.129773432532134
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.492776185404609,3.2638964421428383
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4340728040493063,0.6254291079704535
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.35484615783296836,0.5550329595685858
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4340728040493063,0.6254291079704535
+102,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.38590578428482436,0.5623114266426222
+102,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.35484615783296836,0.5550329595685858
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2776390247805076,3.3143062874077645
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9653327859311664,3.9597055999117403
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9756026389636085,3.9611609086020048
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2760177796802923,3.3131122849923433
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2800599564009456,3.3209878026125637
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2760177796802923,3.3131122849923433
+102,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.27854148212266,3.3198806524967446
+102,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.27854148212266,3.3198806524967446
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9949577922077923,1.6672294127602014
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.007411291327017,2.6575884452468985
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.134933624828493,2.827849892281053
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.215588949619104,2.0209252761831262
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2180851478022336,2.027652464131392
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.215588949619104,2.0209252761831262
+102,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.0954276133737046,1.7305598327951885
+102,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9949577922077923,1.6672294127602014
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.008055909105668,2.84635635582486
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9217332974697965,3.819305546104363
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9209415467437627,3.8191098908000507
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.985498173805934,2.864472416959774
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0069819110418807,2.8462826245691684
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.985498173805934,2.864472416959774
+103,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.9845875498854981,2.864442705807201
+103,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.9845875498854981,2.864442705807201
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3214821428571431,0.45480394618372216
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.2015859668780386,2.896571449648435
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3646045497943446,3.13585425551713
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4165607010503926,0.5642518052596843
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.34927461425479184,0.4861399520117561
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4165607010503926,0.5642518052596843
+103,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.35330049234070054,0.46608712522560614
+103,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.34927461425479184,0.4861399520117561
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3734428692989904,3.3414846626829333
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.844481758335973,3.898501542444807
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.8384972192780005,3.894818251672473
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.374901747524353,3.3416325180404653
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.377120033175056,3.3466245260666065
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.374901747524353,3.3416325180404653
+103,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.378528091247969,3.3467476315587334
+103,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3734428692989904,3.3414846626829333
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0844350649350654,1.686820966075212
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.062394821870623,2.7496299255443666
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.172619269121417,2.8760296201974205
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.3730049070833563,2.1170927140348867
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2626296517470623,1.9688206671769768
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.3730049070833563,2.1170927140348867
+103,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.2279205286050585,1.8012699494979816
+103,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0844350649350654,1.686820966075212
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0291325065410346,2.8691650591530187
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9248586612500334,3.9433720534503918
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.923649117421261,3.943155208459875
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.034807604264131,2.889928069560027
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0239725089320295,2.8640146681700056
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.034807604264131,2.889928069560027
+104,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.0246318742536435,2.8854574307356295
+104,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.0246318742536435,2.8854574307356295
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.2987061688311694,0.4211217081802483
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.0549148443414236,2.843673065594226
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.2291240334186107,3.073037293135333
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.40189894452138764,0.5601993674003519
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3008580194922318,0.4336381602844658
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.40189894452138764,0.5601993674003519
+104,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.35422905555721557,0.48419858271911526
+104,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3008580194922318,0.4336381602844658
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.222889475621384,3.101647547997225
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.72555791161256,3.714646831131515
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.7265878075053047,3.709739697771406
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2272673692512766,3.103074585004076
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.223978705847242,3.109806491553367
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2272673692512766,3.103074585004076
+104,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.228638029027288,3.1112501185374914
+104,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.222889475621384,3.101647547997225
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8963344155844153,1.4743342408469555
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.8948818543860078,2.529887367930783
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",1.9815621583167302,2.6382926426869497
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.97928217908084,1.5925294722627283
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.0797112379593707,1.8479790255646256
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.97928217908084,1.5925294722627283
+104,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.9345081867714721,1.4921618178259202
+104,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8963344155844153,1.4743342408469555
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.940867112038739,2.8016917845978044
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9245588344149227,4.004171741721802
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9346295677426752,4.013208428731967
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.902946769857694,2.7926393164387617
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.9379114579786736,2.7991921190453644
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.902946769857694,2.7926393164387617
+105,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.8976806719333426,2.789430083674517
+105,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.8976806719333426,2.789430083674517
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.2944886363636363,0.4425925177513522
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.376940258699771,3.21807782673511
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4886278991690514,3.333224369270498
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.3680511555138579,0.5058807012117714
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.30149392416746296,0.45760704525989204
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.3680511555138579,0.5058807012117714
+105,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3256890347625051,0.44036007875774225
+105,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.30149392416746296,0.45760704525989204
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0008384785762523,2.9009790217906337
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.6527072893810764,3.57374113061627
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.660385313652485,3.5785570041424295
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.9864503973283698,2.884549278459575
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.9976109601206202,2.9035408348772607
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.9864503973283698,2.884549278459575
+105,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.9809504034547993,2.886501987843604
+105,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.9809504034547993,2.886501987843604
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8848896103896098,1.502152706907699
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.056140910004409,2.7105159012244995
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.10056511440377,2.743759494362
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.0570372598316184,1.780669436185673
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1011226972882824,1.9185002736279415
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.0570372598316184,1.780669436185673
+105,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.979520855719386,1.624224474015133
+105,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8848896103896098,1.502152706907699
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1732278834589653,3.0164902834850085
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.0569930688884215,4.057423502357335
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.059989844903772,4.067300012594379
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.1740078894592383,3.035187482772226
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.1728778127306856,3.0150044488011454
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.1740078894592383,3.035187482772226
+106,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.1734367249262627,3.034200666656788
+106,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.1734367249262627,3.034200666656788
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.32630357142857225,0.4600254373436831
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.2745255523583134,3.0997938525048747
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4199533060268292,3.2870152847596126
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.42371796413813523,0.5825518141322211
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3345213290136992,0.48730938083922176
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.42371796413813523,0.5825518141322211
+106,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3716630084720185,0.49904620773061736
+106,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3345213290136992,0.48730938083922176
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3708788531518796,3.3856491506279207
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9321857775238147,3.937194633019228
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.944764357758768,3.9567823303273335
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.370481359305537,3.3870101150187164
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.383040547434796,3.3791051395025473
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.370481359305537,3.3870101150187164
+106,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.382222734336349,3.380368049892472
+106,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.382222734336349,3.380368049892472
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9523246753246744,1.4996595769010062
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.0507092588287748,2.692511398848079
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.213038833561876,2.957513714535504
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2747144462364828,1.9890212565418437
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2196855400596875,1.8986551956198632
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2747144462364828,1.9890212565418437
+106,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.1013885295175125,1.6497896482925654
+106,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9523246753246744,1.4996595769010062
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3521200743654,3.3549763944633226
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.315684304857267,4.444407764724243
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.3195640219300406,4.448859157795432
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.341966675579486,3.3886951329914807
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.348678860880626,3.3523825650390298
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.341966675579486,3.3886951329914807
+107,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.3399377670056682,3.3863576711111634
+107,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.3399377670056682,3.3863576711111634
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.35157694805194745,0.5289474511897463
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.3700644795243475,3.112152543947484
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4672132221777456,3.2583843120209317
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.41492742786164083,0.5949002382824772
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.35161252377672786,0.5270728653435599
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.41492742786164083,0.5949002382824772
+107,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.35028299639987814,0.49128120544277865
+107,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.35161252377672786,0.5270728653435599
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.245790641355459,3.1544597558256653
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.782269992285586,3.8201187384855104
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.781532033765617,3.813564798361494
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2458555413468355,3.1542244202419005
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2580027405066065,3.1614221696681364
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2458555413468355,3.1542244202419005
+107,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2580286203539726,3.161295025667602
+107,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.2580286203539726,3.161295025667602
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.187136363636363,1.8764573585200792
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.2553914603229135,2.9445082778215896
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.293163110663787,3.0052956554296255
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.509254144178332,2.342698436623979
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.523756019886499,2.4303838773277517
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.509254144178332,2.342698436623979
+107,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.339740252278891,2.0363077392897826
+107,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.339740252278891,2.0363077392897826
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1637600017792837,3.0512281208231706
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9166753231154567,3.8710861105949177
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9283288343367184,3.896103062602345
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.1460145636856565,3.0507173701009527
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.1594886123927832,3.032922069094354
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.1460145636856565,3.0507173701009527
+108,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.1366699423661917,3.036137931798757
+108,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.1366699423661917,3.036137931798757
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.34154383116883114,0.4865777585146789
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.368784770394783,2.99241452832568
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.476388259959921,3.1250699541952422
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4160804258962537,0.55870209845906
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.34001695075757543,0.4942454810524859
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4160804258962537,0.55870209845906
+108,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3716203120300284,0.49327882922657695
+108,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.34001695075757543,0.4942454810524859
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2795464694012,3.2411508825400785
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.5178925988668848,3.578992585695491
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.5189797843059165,3.5813743857214995
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2715653113818033,3.2298313075237965
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.281798221649611,3.24461477768369
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2715653113818033,3.2298313075237965
+108,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2740809713008794,3.233884655557627
+108,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.2740809713008794,3.233884655557627
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0325974025974032,1.6888402357004593
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.039127080732924,2.6413248353468406
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0957124746782245,2.6956627226165986
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2968131962599083,2.0418753956649174
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2468939472414313,2.0253569582388153
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2968131962599083,2.0418753956649174
+108,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.1429542515429014,1.7521987938675059
+108,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0325974025974032,1.6888402357004593
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.069179452418554,2.8609145431738385
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.928350370823065,3.849058052693343
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.933490064407537,3.857681158792073
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.0366846145392845,2.8554291674548997
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0731283207966262,2.860151839339966
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.0366846145392845,2.8554291674548997
+109,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.0353586985520113,2.8544356042830517
+109,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.0353586985520113,2.8544356042830517
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.34831818181818197,0.4867376815255658
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.2829157654910395,2.986269167984447
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.438168854119616,3.1937653622613174
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4299548170804659,0.5909309264123574
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3406602447246112,0.48388675941841697
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4299548170804659,0.5909309264123574
+109,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3825255845452334,0.5115664894153572
+109,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3406602447246112,0.48388675941841697
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3461756304470476,3.45510804778711
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.871671679274369,4.066295795111912
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.8690732471971763,4.061363493089428
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.3462463248714207,3.4562702928753604
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.3528220675220504,3.4625978205346666
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.3462463248714207,3.4562702928753604
+109,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.3528620460356677,3.463756096623448
+109,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.3528620460356677,3.463756096623448
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0690714285714287,1.7855010228497212
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.1073669784138325,2.883212563997148
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.2354779588987594,3.0571054948593828
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2594464793909197,2.0547131811120605
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2872214625967469,2.2152467697988705
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2594464793909197,2.0547131811120605
+109,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.149018391298592,1.8638553305136194
+109,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0690714285714287,1.7855010228497212
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.8492559158006832,2.6222553795974397
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9559370757219776,3.720994274659132
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.965682500047606,3.7346803080870163
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.7208251204252072,2.5644689561826675
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.8461560031177024,2.6201558632398183
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.7208251204252072,2.5644689561826675
+110,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.7188160320475423,2.5631554694306384
+110,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.7188160320475423,2.5631554694306384
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3379074675324673,0.4961636701544845
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.2759069048895717,3.057084458253704
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4977748774839714,3.277886311729137
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4180472493190431,0.5806285258588888
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3187061609521428,0.46943243951399627
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4180472493190431,0.5806285258588888
+110,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3611519765513034,0.4873500974744815
+110,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3187061609521428,0.46943243951399627
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.890844656672843,2.556519420998434
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.5377342660281106,3.303513877583985
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.552847609818271,3.3278200243958356
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.8707421302292475,2.5258071653635494
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.8784711742462177,2.547245492780408
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.8707421302292475,2.5258071653635494
+110,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.8545021546437426,2.517935815474361
+110,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",1.8784711742462177,2.547245492780408
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0240649350649351,1.6849728525405692
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.9633112252189258,2.70458379475531
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.1102194220035186,2.8129343219720218
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.226567406421141,1.9881231080860138
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1665649299609118,1.9700085644271592
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.226567406421141,1.9881231080860138
+110,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.0845088664770888,1.70084568197393
+110,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0240649350649351,1.6849728525405692
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0550383454463232,2.9123240380761297
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.876290652572248,3.751557591311359
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.8780770487109644,3.7530431909087993
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.075580303010568,2.9543471053153865
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0587203092085042,2.9124208911271654
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.075580303010568,2.9543471053153865
+111,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.0788012668043208,2.954448818104667
+111,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.0788012668043208,2.954448818104667
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.32016006493506577,0.4515559900600268
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.227677474741698,2.972820339518326
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3659395863258066,3.12444620464469
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.35859569980884937,0.5003910273925363
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3202561708223237,0.44554134947746776
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.35859569980884937,0.5003910273925363
+111,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.32087829402195023,0.4347047492038168
+111,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.32016006493506577,0.4515559900600268
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.399014093759956,3.388897332933864
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.737079048754148,3.741226079353157
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.7387447378820955,3.7374659937606025
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.3920234014054924,3.3815236730712837
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.39493997417076,3.389949737500044
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.3920234014054924,3.3815236730712837
+111,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.3883997217658304,3.3825880810959457
+111,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.3883997217658304,3.3825880810959457
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9720730519480518,1.5894550847114033
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.9674435921537772,2.6687037641179416
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.058209599101452,2.7369813200027515
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.1733864652122765,2.0007868879124997
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1751535015624712,1.9519813036724014
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.1733864652122765,2.0007868879124997
+111,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.0745945081451123,1.7073185403854256
+111,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9720730519480518,1.5894550847114033
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.202589304256088,3.0877396893071962
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.1321972574057124,4.1295804886898795
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.16912949383696,4.161020893988698
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2119051618864676,3.123071842596202
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.1922891938608022,3.0790866069128198
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2119051618864676,3.123071842596202
+112,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2031933060061073,3.1148621888636066
+112,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.2031933060061073,3.1148621888636066
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3629584415584409,0.5550316071788453
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.252115950771713,3.0864990719778214
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3727865597518742,3.218973784510937
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4337048279642428,0.6048394889956483
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.36970211454760993,0.5699372305741964
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4337048279642428,0.6048394889956483
+112,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.39705157502928223,0.5626090403981546
+112,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.36970211454760993,0.5699372305741964
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3499561443198584,3.318873644852932
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9216820153871503,3.79303416630899
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.960130700519633,3.824821684152459
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.35100812125367,3.320225056393905
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.360402680275235,3.3101002698424544
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.35100812125367,3.320225056393905
+112,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.3612771474235648,3.311408315006043
+112,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3499561443198584,3.318873644852932
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.139548701298701,1.86539570721081
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.0181941692317897,2.6134925246757055
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.075294689222519,2.6991996469937054
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.3487103371961733,2.1444308806830508
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.4240497830812766,2.299785178819682
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.3487103371961733,2.1444308806830508
+112,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.1911347824163177,1.805200444276489
+112,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.139548701298701,1.86539570721081
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0081720710605118,2.802848936121604
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.0298412281711706,3.9393135630940996
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.0566369357458636,3.9688209732545134
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.9822656270800059,2.8184348796983603
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0068566476895704,2.793301234419564
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.9822656270800059,2.8184348796983603
+113,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.9794056336712984,2.807288378029083
+113,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.9794056336712984,2.807288378029083
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.32884740259740297,0.4739924829531628
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.235227641254793,3.0952327781284685
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3899877221867407,3.2810056320210985
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.40497162487584604,0.5421926955061498
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3211884465948909,0.467537000150558
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.40497162487584604,0.5421926955061498
+113,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.34844104752349697,0.4625050372617627
+113,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3211884465948909,0.467537000150558
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.397421479337435,3.322251865878587
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.8957505300375175,3.8376138785817373
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9196965266572006,3.8617621956336166
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.384889254419733,3.3113011392381724
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.3959281791733167,3.3155149683464957
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.384889254419733,3.3113011392381724
+113,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.386469533981283,3.303429014286562
+113,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.386469533981283,3.303429014286562
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9244383116883109,1.506162222478734
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.9282548730205102,2.656420082670847
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",1.9844065811404534,2.695073522141838
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.1815659692940537,1.8266271111307213
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1474150092061608,1.8770796010010482
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.1815659692940537,1.8266271111307213
+113,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.0337297021477097,1.6386704241512704
+113,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9244383116883109,1.506162222478734
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3021610850060092,3.2254699958139383
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.0784908196627643,4.208445437963261
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.0816221196076943,4.210289335393796
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2749510314391217,3.2543656896179196
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.302072144241323,3.2256400570693757
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2749510314391217,3.2543656896179196
+114,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2743057029864717,3.254602328018141
+114,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",2.302072144241323,3.2256400570693757
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3204155844155852,0.5241495810159744
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.4238345396043934,3.6086247403189597
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.5588114344049853,3.7579721199426794
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4130301176186724,0.6065101325309595
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.307194387110905,0.4412205250987918
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4130301176186724,0.6065101325309595
+114,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.34545893405124634,0.47339808231734465
+114,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.307194387110905,0.4412205250987918
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.236141981128425,3.1903532685495692
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.705926981534731,3.7153186621257377
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.7215889702504237,3.722418045094378
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2348423213656434,3.1912812724810564
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2397365303836216,3.1915213761189443
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2348423213656434,3.1912812724810564
+114,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.239169593384137,3.192300269593387
+114,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",2.2397365303836216,3.1915213761189443
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9081948051948051,1.5451654851902998
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.167981745195753,2.9894795607422897
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.2387125802864762,3.0700579539475226
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.214681155830101,1.9878497171287266
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2540659747990104,2.131796094017279
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.214681155830101,1.9878497171287266
+114,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.141649180691169,1.888131110797779
+114,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9081948051948051,1.5451654851902998
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.908771967400966,2.6150492208485603
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.8990709903215017,3.751667001240974
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.902505032655023,3.7548810741185736
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.8972035764153612,2.643472158242713
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.9005518676005697,2.6032367734054853
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.8972035764153612,2.643472158242713
+115,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.8927728908636727,2.6322240885633565
+115,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.8927728908636727,2.6322240885633565
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3033441558441556,0.44633238717088575
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.426444774951325,3.222001205487349
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.6534243554996864,3.491953460777624
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.40413460250968364,0.5690686393277313
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.29070422277037483,0.4165736595462111
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.40413460250968364,0.5690686393277313
+115,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3311914318743218,0.47212043683096716
+115,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",0.3311914318743218,0.47212043683096716
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.225843947256398,3.155253591130083
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.700458695476337,3.582502827354904
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.7067700238681542,3.598796718858072
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.227349582076309,3.156832866539605
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2125062933802275,3.1276071834523447
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.227349582076309,3.156832866539605
+115,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2140371203677742,3.129199836948111
+115,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.225843947256398,3.155253591130083
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9611623376623368,1.6575582186990057
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.90170629894808,2.5543089340331666
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.111777797574609,2.798052576736
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.0656810660254235,1.8133630557298654
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1253660890561457,1.924047885766114
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.0656810660254235,1.8133630557298654
+115,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.9586268979082425,1.5589082251861226
+115,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9611623376623368,1.6575582186990057
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.139619545856451,2.91369713902279
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.1110789906525005,4.007900971321552
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.1185993169928263,4.0159035182604645
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.1218303411122816,2.8847074966918447
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.1344417547233516,2.9070987416492136
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.1218303411122816,2.8847074966918447
+116,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.1139422570169155,2.8769259704087355
+116,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.1139422570169155,2.8769259704087355
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3400720779220776,0.49010076988600715
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.453989086912706,3.1886736260226765
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.545228231476886,3.3132771771041787
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.42620728135951447,0.5862536610221367
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3138539965986395,0.44981281056861816
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.42620728135951447,0.5862536610221367
+116,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3600785555608724,0.48865926761297235
+116,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3138539965986395,0.44981281056861816
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2346980724461507,3.159153392952477
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.995016358845923,3.822601829025722
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.988391518186603,3.8157700402595953
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.217338244426315,3.126238379583844
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.241440867752943,3.165864805343297
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.217338244426315,3.126238379583844
+116,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2250819535643487,3.133500077394772
+116,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2346980724461507,3.159153392952477
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.020800324675324,1.7328775823765636
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.269829526056855,2.8593378482456453
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3476401375036713,2.9668436236873963
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2332669095875262,1.9464577158709753
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1757525987495545,1.930282803925615
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2332669095875262,1.9464577158709753
+116,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.0737771548242252,1.6631529206776858
+116,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.020800324675324,1.7328775823765636
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0302799790228856,2.7820653316222637
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.773638711686157,3.7912217892932505
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.773327799719219,3.7908810234439168
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.0488198437216836,2.8077741973563235
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0287685128016926,2.7822967885062546
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.0488198437216836,2.8077741973563235
+117,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.0479879273029837,2.8080513395082183
+117,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.0479879273029837,2.8080513395082183
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.29965681818181844,0.43047784135696315
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.250553872009394,2.9902085231669613
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3559390325902676,3.1258482163870203
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.340610665110503,0.48074665260381255
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.285084388762392,0.41636138317086413
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.340610665110503,0.48074665260381255
+117,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3023012817597581,0.40654626669201827
+117,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",0.3023012817597581,0.40654626669201827
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2788434055316382,3.139970707681869
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.7449830456253617,3.6923368664913414
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.7440799364507633,3.694082464831418
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.280302311534986,3.1413773022154925
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2704232532860664,3.1395188453868554
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.280302311534986,3.1413773022154925
+117,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.27176504405646,3.1409918234455865
+117,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.27176504405646,3.1409918234455865
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9418522727272722,1.6125912758572087
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.045463551806933,2.7301810215865947
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0878149841780065,2.7557314028313886
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.048383961384935,1.729593709194874
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1474228564590183,2.0026891914459575
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.048383961384935,1.729593709194874
+117,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.9964628479113454,1.596568061188891
+117,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9418522727272722,1.6125912758572087
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.325289443169896,3.1416811354267242
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.1400087721790038,4.06931478380274
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.139341890464036,4.069877878666215
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.230041447641146,3.0805230491453246
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.3250385902695263,3.1413928872699355
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.230041447641146,3.0805230491453246
+118,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.228501356767132,3.0799863363347035
+118,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.228501356767132,3.0799863363347035
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3544870129870123,0.49114289916743825
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.1963843185054004,2.9416397839533666
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3106362725713976,3.0812221147285985
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4374194620720187,0.6079380429006158
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.33879251290736634,0.46385632457710246
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4374194620720187,0.6079380429006158
+118,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.37974274851449497,0.5234972019909321
+118,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.33879251290736634,0.46385632457710246
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.4459421733532536,3.412848937128431
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.86616854132565,3.934527558468
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.876342178053095,3.9356502002745426
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.41039624959605,3.366469415403387
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.44785928243177,3.410552558386105
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.41039624959605,3.366469415403387
+118,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.416540907712773,3.3647266370960742
+118,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",2.44785928243177,3.410552558386105
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.026657467532467,1.7517211050710364
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.05499164455126,2.697735602160069
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.1545906373014905,2.8456054135471383
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.3102376431874407,2.141676185622271
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2379566147326688,2.006950918246668
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.3102376431874407,2.141676185622271
+118,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.1211119628614283,1.7196109926192198
+118,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.026657467532467,1.7517211050710364
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0336132914333676,2.804287328714562
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.8533369635433887,3.8307279995321206
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.8554038603466716,3.83848054931632
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.0134134149078915,2.799805317096289
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.030766202980355,2.8017489798450796
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.0134134149078915,2.799805317096289
+119,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.008280853417829,2.7954878885647614
+119,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.008280853417829,2.7954878885647614
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3567389610389616,0.5038561376375851
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.35013970904106,3.1947258269573484
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.560958031309715,3.4672631279135793
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4090162150169458,0.5784384243356648
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.35155760129120506,0.5252618384158357
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4090162150169458,0.5784384243356648
+119,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3530914971078002,0.4914494049030351
+119,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.35155760129120506,0.5252618384158357
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.202911208819548,3.135956978920382
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.789499583511169,3.6645741289546767
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.784759093330015,3.6698983641744944
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2063141623527454,3.12643352348269
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.1986396028944974,3.1364509106114298
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2063141623527454,3.12643352348269
+119,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.1973015009802217,3.125586825331629
+119,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.1973015009802217,3.125586825331629
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.081474025974026,1.7210659129223895
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.0395873512746605,2.711721466650824
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.2190446298612803,2.9448706215892337
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.228235570683826,1.8955690095658893
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2095517313674775,1.9656475589367552
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.228235570683826,1.8955690095658893
+119,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.0773492268235048,1.6723488526201606
+119,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.081474025974026,1.7210659129223895
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.0752568031608822,2.9699394083712987
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.7352327054760823,3.6609295496420438
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.738054554023484,3.6609929789238493
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.0630747741037423,2.958565929431618
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.075566024317644,2.968914635587496
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.0630747741037423,2.958565929431618
+120,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.0621402016517965,2.9577959002801255
+120,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.0621402016517965,2.9577959002801255
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.27488116883116825,0.4086591661652882
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.158680553062476,3.017358579487507
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.296262233804683,3.20227520540424
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.36677331396057,0.510820642040078
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3150950372345899,0.45262770192462953
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.36677331396057,0.510820642040078
+120,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.35099013320260164,0.4519620259165192
+120,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3150950372345899,0.45262770192462953
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.241324909651775,3.3352556068640964
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.6737606017154723,3.545760776262667
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.662119804933008,3.5432832036189073
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.237671367626035,3.333832058377731
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2510013340001462,3.3393116191013594
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.237671367626035,3.333832058377731
+120,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2456700225389215,3.3377760399820824
+120,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.2456700225389215,3.3377760399820824
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9688766233766235,1.6362186604699667
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.9521519705992112,2.55276884854267
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0729913770829866,2.7144068772899974
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2187413254179074,2.020934479814573
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.217155062100598,2.014406647069178
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2187413254179074,2.020934479814573
+120,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.1361386407796046,1.8074681129308323
+120,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9688766233766235,1.6362186604699667
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.8028387230023923,2.5555336605028516
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9036650812866807,3.756387166835718
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.910901787478247,3.7606216810529083
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.777491215956284,2.5611924806861492
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.8024225394312867,2.5544208752258504
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.777491215956284,2.5611924806861492
+121,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.777382062087935,2.559930446605812
+121,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.777382062087935,2.559930446605812
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.2959620129870133,0.46094101675303895
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.350935806468938,3.1103181980804466
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.5031064432354095,3.322204938404406
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.3865482421618782,0.5513563108227916
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.28700519533226465,0.4467071518334664
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.3865482421618782,0.5513563108227916
+121,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3292615465522597,0.46247421072531947
+121,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.28700519533226465,0.4467071518334664
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.9743235152037852,2.8146624678879135
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.6406346328409183,3.4138863376721935
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.642467214511986,3.4152590108302676
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.9748508919258458,2.8151117638506125
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.9944767841178772,2.818244562913987
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.9748508919258458,2.8151117638506125
+121,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.995081096876047,2.81875538661162
+121,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.995081096876047,2.81875538661162
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9436769480519495,1.7051862800275395
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.9723756383158646,2.652109728317392
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.125312962109235,2.8018683967116735
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.1259841854303712,2.0218442224362576
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.0385901315450425,1.8479055284361339
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.1259841854303712,2.0218442224362576
+121,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.9754150518822177,1.681004264010389
+121,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9436769480519495,1.7051862800275395
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1663704990779236,3.07387758940551
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.168439582969209,4.296791327237817
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.1710380444823167,4.297288419135498
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.144271963059639,3.1048123716980105
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.166178040176601,3.0710753607730874
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.144271963059639,3.1048123716980105
+122,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.141179848780193,3.1021043087240163
+122,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",2.166178040176601,3.0710753607730874
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.36846428571428563,0.5966640473412232
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.3305341164566373,3.3698929832680022
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4494075015085177,3.51093817111742
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.471169815902892,0.7018033038987955
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3482108978818791,0.5645657467341623
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.471169815902892,0.7018033038987955
+122,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.4062731243657863,0.6285759324426592
+122,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",0.4062731243657863,0.6285759324426592
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2180502893599563,3.0079721787719667
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.8179111575771407,3.663401307176852
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.8158918042922045,3.66073709734537
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2148526094380996,3.009055024985161
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.227417481219315,3.0133935083958945
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2148526094380996,3.009055024985161
+122,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.2257422942445997,3.0144639364405212
+122,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",2.227417481219315,3.0133935083958945
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9843879870129864,1.5805541905000098
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.985981614012117,2.713578068650602
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0476071953334016,2.8275949669280576
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2392515815038139,1.9279716352729888
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.2032009688723975,1.8981862076394642
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2392515815038139,1.9279716352729888
+122,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.1055837435482263,1.6836587690068199
+122,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9843879870129864,1.5805541905000098
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.068460161778397,2.8851019177258266
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9064644505249873,3.8787633501416146
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9118437821578804,3.8912305627467187
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.051215950663789,2.8980301146219984
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0503265595886533,2.8656316687885672
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.051215950663789,2.8980301146219984
+123,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.033079724637621,2.8782233985657006
+123,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.033079724637621,2.8782233985657006
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3283253246753249,0.47646001511826147
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.311734295342819,3.0791777008250234
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.411906630126154,3.2162023726692293
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.37194832432628694,0.5228657531383077
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.34693328302739745,0.5157659720947244
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.37194832432628694,0.5228657531383077
+123,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.34865366788697577,0.48592257367735525
+123,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.34693328302739745,0.5157659720947244
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.137639810253294,2.954280805998066
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.640429377062635,3.407600393482795
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.6357586745109174,3.402339975253937
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.1393974213712856,2.95627071254562
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.143016942959335,2.959576609651521
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.1393974213712856,2.95627071254562
+123,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.144951255372037,2.96153769510821
+123,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.144951255372037,2.96153769510821
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8429042207792207,1.3713398890555666
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.8946912600300057,2.5190252043223897
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.004668841862903,2.621624056592112
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.0000018069142258,1.5697904401238607
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.0522623549970949,1.8082705335749596
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.0000018069142258,1.5697904401238607
+123,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.9359940366823841,1.4328227915235177
+123,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8429042207792207,1.3713398890555666
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.86063028761334,2.712163972951071
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.884326289569729,3.734885570979476
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.8837655059026486,3.735531393223103
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.8442237861935054,2.7215389150004357
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.8642632755712847,2.7122344952658377
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.8442237861935054,2.7215389150004357
+124,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.847197590088939,2.72141232846878
+124,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.847197590088939,2.72141232846878
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3364639610389607,0.4855185336084223
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.388625597073779,3.0723900673771833
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.6410100475039036,3.378987459807024
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.3888014472765694,0.5352215365944129
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.32937347039504433,0.49135060696067595
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.3888014472765694,0.5352215365944129
+124,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3415986534586504,0.45953460448994926
+124,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",0.3415986534586504,0.45953460448994926
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1069965597909057,3.0190687108663092
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.6787174006215437,3.571563614531824
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.6737334122727536,3.5821300154528624
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.099646010233491,3.0172256213766033
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.0954137721227704,3.0154600350388665
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.099646010233491,3.0172256213766033
+124,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.0897377857503816,3.013971652486406
+124,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1069965597909057,3.0190687108663092
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9025470779220788,1.5129331939751407
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.1955130518732786,2.80677064739418
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.321514803912463,2.922567216383803
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.1674539404363662,1.920947345639292
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.136941324188077,1.8745768217573737
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.1674539404363662,1.920947345639292
+124,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.029551142313368,1.6056840497934064
+124,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.029551142313368,1.6056840497934064
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.854240392060492,2.6268117993429057
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.8014775211784246,3.5719506962575243
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.798648679286717,3.5716973857144128
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.8130370628240793,2.632349276033378
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.856357835882133,2.6271059169680697
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.8130370628240793,2.632349276033378
+125,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.8138998413033507,2.632459927333059
+125,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.8138998413033507,2.632459927333059
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.28387272727272767,0.40629808314848126
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.215470744613884,2.780127895860934
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.36680606755578,2.964972998582441
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.36617387142529245,0.49582177143191314
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.2643425774126663,0.3871014086685046
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.36617387142529245,0.49582177143191314
+125,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3120184485783533,0.41174971719112957
+125,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.2643425774126663,0.3871014086685046
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.193344084740125,2.9667897142965085
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.65969016329818,3.410980783782919
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.6952660923500567,3.417745558696783
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.186580067673486,2.965881593215332
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.184394866500132,2.960011175000373
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.186580067673486,2.965881593215332
+125,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.17876031161692,2.959505059364627
+125,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.17876031161692,2.959505059364627
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8458961038961039,1.4913780232654694
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.849044849529206,2.527188529911746
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0201703799892208,2.714365535531684
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.0575203309767436,1.8124097624472704
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.028494044199848,1.8157046001983868
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.0575203309767436,1.8124097624472704
+125,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.9369401709590093,1.5557584497324415
+125,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.8458961038961039,1.4913780232654694
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.9431498507169214,2.8061744732059926
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.101340493239999,4.058095157274455
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.1074452517987137,4.064979019646366
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.9579945155703782,2.8338732836991123
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.942440962269779,2.8007801860768615
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.9579945155703782,2.8338732836991123
+126,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.954427691058052,2.8274880349302327
+126,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.954427691058052,2.8274880349302327
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3693327922077927,0.573630132415423
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.3624376482017,3.0993431593808674
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4690080409209574,3.258769860142541
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.44956525505519085,0.650891351205993
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.34670652883191866,0.5434888811467217
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.44956525505519085,0.650891351205993
+126,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.38388796916033757,0.5552138172928506
+126,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.34670652883191866,0.5434888811467217
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2795485232424206,3.433812741219687
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.0006579117640464,4.036507814394745
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.0208688429727877,4.060473561223165
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2819663642807804,3.435440723621468
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2720396067681277,3.410082296941538
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2819663642807804,3.435440723621468
+126,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.272697813158882,3.411649572685182
+126,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.272697813158882,3.411649572685182
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0767792207792204,1.8174667146686825
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.0610149315230575,2.795822828565738
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.1886322694325533,2.9717269905052577
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.402587164607579,2.3509423802984943
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.27825218997723,2.0339699310340347
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.402587164607579,2.3509423802984943
+126,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.2155187772571479,1.8465671378833515
+126,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.2155187772571479,1.8465671378833515
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.2309224178735896,3.0952691443042526
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.109713645863968,4.227504571230349
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.1193249906072045,4.272178858059484
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.157118220285737,3.054560084092819
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2054090971411546,3.0634947632848486
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.157118220285737,3.054560084092819
+127,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.120348626013384,3.018873561173143
+127,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.120348626013384,3.018873561173143
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3314691558441557,0.45459045138482546
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.214726532677672,3.0416344574515244
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.3327268976503164,3.2597248100099643
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.4083306815884341,0.5734823257447573
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.300693581864564,0.43215631286135564
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.4083306815884341,0.5734823257447573
+127,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3339196491307663,0.47419539140067973
+127,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",0.3339196491307663,0.47419539140067973
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.3522919362977657,3.2013731410905533
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.9180988656718285,3.948415575638984
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.9240063391115636,3.959437025465277
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.3391411687538013,3.1835267052362917
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.350720606843295,3.199050728722068
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.3391411687538013,3.1835267052362917
+127,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.3373920975366222,3.180542249287343
+127,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.3373920975366222,3.180542249287343
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0242467532467534,1.778890907616681
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",1.9696566737198336,2.6802005964118267
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.0154363766190175,2.7475514195030315
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.2598621560032681,1.9952157021962096
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.191661465419501,1.9224739918501166
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.2598621560032681,1.9952157021962096
+127,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.093478489145719,1.64907491173329
+127,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",1.0242467532467534,1.778890907616681
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.8899543848904388,2.7397687856350985
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.0998547849453937,4.176522895245475
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.1005570084594285,4.178139309825383
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.8515951412920348,2.7560926002861503
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.8866621450995626,2.7284399923378464
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.8515951412920348,2.7560926002861503
+128,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.8511629736819728,2.7441158664954735
+128,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.8511629736819728,2.7441158664954735
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.31943831168831094,0.48846379087911773
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.3972078090184947,3.430170360460064
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.548362341751907,3.6418653596638064
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.44204062605414063,0.6414297430000443
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3320186553030307,0.4837295939913241
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.44204062605414063,0.6414297430000443
+128,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.39049780652465904,0.5524423003404227
+128,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3320186553030307,0.4837295939913241
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1610452555737396,3.070213429488483
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.884269775995501,3.8399446295186714
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.906086579854627,3.8635031012616166
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.1601248893108194,3.0675539984421323
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.1340841326761675,3.0245713597043373
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.1601248893108194,3.0675539984421323
+128,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.134644631802479,3.0213408379605284
+128,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",2.1610452555737396,3.070213429488483
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9597581168831162,1.5802361788946804
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.081832148418345,2.8241591210444064
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.1966389556586954,2.9319191686511505
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.1709073500543465,1.8251616722641584
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.1554723723201397,1.9779226655150188
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.1709073500543465,1.8251616722641584
+128,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.044683877643373,1.6339029344360607
+128,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (8 features),8,"X1,X2,X3,X4,X5,X6,X7,X8",0.9597581168831162,1.5802361788946804
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.264330798655533,3.2234787310770496
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.141256751932379,4.267003605807391
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.141331093622567,4.266878902982711
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.2626183859038242,3.2574976249060317
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.2584528616274118,3.2194679721325326
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.2626183859038242,3.2574976249060317
+129,Y1,Heating Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.257324420232953,3.2533209813653983
+129,Y1,Heating Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.257324420232953,3.2533209813653983
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",0.3300600649350645,0.4801171007221512
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.323066273012718,3.056663960736487
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.4017385654608794,3.193806216841773
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",0.38084951673506945,0.5156146404007036
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",0.3577447441600605,0.5007931630304742
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",0.38084951673506945,0.5156146404007036
+129,Y1,Heating Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",0.3428567537773163,0.45652377979606024
+129,Y1,Heating Load,Random Forest,MI + inner CV,MI-selected (7 features),7,"X1,X2,X3,X4,X5,X7,X8",0.3577447441600605,0.5007931630304742
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",2.5952728178865416,3.6552354004225056
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",3.0061552372044624,4.104068018149492
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",3.009671985597476,4.10222805667018
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",2.595207091894242,3.6549236470053343
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",2.5944995726632354,3.6500034420444343
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",2.595207091894242,3.6549236470053343
+129,Y2,Cooling Load,Linear Regression,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",2.594394515708903,3.6497871536637905
+129,Y2,Cooling Load,Linear Regression,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",2.594394515708903,3.6497871536637905
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,All 8 features,8,"X1,X2,X3,X4,X5,X6,X7,X8",1.099275974025974,1.9139484799991104
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Geometry only (X1-X5),5,"X1,X2,X3,X4,X5",2.1388943257267625,2.7591469828227857
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Plus orientation (X1-X6),6,"X1,X2,X3,X4,X5,X6",2.2105018525221336,2.9226660577268024
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Without glazing distribution (X1-X7),7,"X1,X2,X3,X4,X5,X6,X7",1.3520676493600194,2.3011131944149756
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 (orientation),7,"X1,X2,X3,X4,X5,X7,X8",1.3304266889675977,2.2261831195613078
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X8 (glazing distribution),7,"X1,X2,X3,X4,X5,X6,X7",1.3520676493600194,2.3011131944149756
+129,Y2,Cooling Load,Random Forest,Predefined/targeted scenario,Exclude X6 and X8,6,"X1,X2,X3,X4,X5,X7",1.2073210587776282,1.8861326525434263
+129,Y2,Cooling Load,Random Forest,MI + inner CV,MI-selected (6 features),6,"X1,X2,X3,X4,X5,X7",1.2073210587776282,1.8861326525434263

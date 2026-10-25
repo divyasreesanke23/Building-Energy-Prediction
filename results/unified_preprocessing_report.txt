@@ -1,0 +1,11 @@
+Dataset file: ENB2012_data.xlsx
+Rows: 768
+Required columns: 10
+Missing/non-numeric values by column: {'X1': 0, 'X2': 0, 'X3': 0, 'X4': 0, 'X5': 0, 'X6': 0, 'X7': 0, 'X8': 0, 'Y1': 0, 'Y2': 0}
+Exact duplicate rows across required columns: 0
+Feature ranges: {'X1': {'min': 0.62, 'max': 0.98}, 'X2': {'min': 514.5, 'max': 808.5}, 'X3': {'min': 245.0, 'max': 416.5}, 'X4': {'min': 110.25, 'max': 220.5}, 'X5': {'min': 3.5, 'max': 7.0}, 'X6': {'min': 2, 'max': 5}, 'X7': {'min': 0.0, 'max': 0.4}, 'X8': {'min': 0, 'max': 5}}
+Target ranges: {'Y1': {'min': 6.01, 'max': 43.1}, 'Y2': {'min': 10.9, 'max': 48.03}}
+Outer evaluation: 30 independent seeded 80/20 random partitions (seeds 100-129).
+MI selection: SelectKBest with k in [3, 5, 6, 7, 8] selected by 3-fold CV using only the training partition.
+Scaling: StandardScaler inside Linear Regression pipelines only; Random Forest uses unscaled inputs.
+No imputation, row deletion, or outlier removal is applied automatically.
